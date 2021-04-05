@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/mlb-higher-lower/static/css/main.1781b3cc.chunk.css",
-    "main.js": "/mlb-higher-lower/static/js/main.4d15361c.chunk.js",
-    "main.js.map": "/mlb-higher-lower/static/js/main.4d15361c.chunk.js.map",
+    "main.css": "/mlb-higher-lower/static/css/main.595f9e68.chunk.css",
+    "main.js": "/mlb-higher-lower/static/js/main.6d443632.chunk.js",
+    "main.js.map": "/mlb-higher-lower/static/js/main.6d443632.chunk.js.map",
     "runtime-main.js": "/mlb-higher-lower/static/js/runtime-main.eae9fa89.js",
     "runtime-main.js.map": "/mlb-higher-lower/static/js/runtime-main.eae9fa89.js.map",
     "static/js/2.1dcb0439.chunk.js": "/mlb-higher-lower/static/js/2.1dcb0439.chunk.js",
     "static/js/2.1dcb0439.chunk.js.map": "/mlb-higher-lower/static/js/2.1dcb0439.chunk.js.map",
     "index.html": "/mlb-higher-lower/index.html",
-    "static/css/main.1781b3cc.chunk.css.map": "/mlb-higher-lower/static/css/main.1781b3cc.chunk.css.map",
+    "static/css/main.595f9e68.chunk.css.map": "/mlb-higher-lower/static/css/main.595f9e68.chunk.css.map",
     "static/js/2.1dcb0439.chunk.js.LICENSE.txt": "/mlb-higher-lower/static/js/2.1dcb0439.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.eae9fa89.js",
     "static/js/2.1dcb0439.chunk.js",
-    "static/css/main.1781b3cc.chunk.css",
-    "static/js/main.4d15361c.chunk.js"
+    "static/css/main.595f9e68.chunk.css",
+    "static/js/main.6d443632.chunk.js"
   ]
 }
