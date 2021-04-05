@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 10px;
+  background: #F0F0F0;
+  height: 100vh;
+}
+
+.container {
+  display: grid;
+  justify-content: space-evenly;
+  /* grid-template-rows: 40vh 40vh 10vh; */
+  gap: 12px 10px;
+}
+
+.title {
+  /* display: inline-flex; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000089;
+  color: rgb(255, 255, 255);
+  padding: 15px 20px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  grid-row: 1;
+  grid-column: 1;
+  height: fit-content;
+}
+
+.points {
+  grid-row: 4;
+  justify-content: center;
+  font-size: 1.2em;
+  padding-top: 0.7em;
+}
+
+.panel {
+  border-radius:10px;
+  height: 38vh;
+}
+
+.name {
+  text-align: center;
+  align-items: center;
+  font-size: 1.2em;
+  border: 1px solid black;
+  background: #F5F5F5;
+  padding: 0.4em;
+  border-radius: 0px 0px 10px 10px;
+  height: 4vh;
+}
+
+.center {
+  grid-row: 1;
+  display: flex;
+  border-radius: 10px 10px 0px 0px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 32vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.result {
+  object-fit: cover;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.result_img {
+  display: flex;
+  border-radius: 10px;
+  width: 100%;
+  height: 38vh;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.playagain {
+  display: block;
+  align-self: center;
+  text-align: center;
+  font-size: 1.4em;
+}
+
+.button {
+  background-color: #76B900; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  box-shadow: 0 0 3px 2.5px rgba(33,33,33,.2); 
+  transform: scale(1.016);
+}
+
+@media (min-width:600px) {
+  .container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 5fr 1fr;
+    gap: 10px 10px;
+  }
+
+  .title {
+    font-size: 1.8em;
+    grid-column: 1 / span 2;
+  }
+
+  .points {
+    grid-row: 3;
+    padding-top: 10px;
+  }
+
+  .panel {
+    height: 57vh;
+  }
+
+  .panel:hover {
+    box-shadow: 0 0 3px 2.5px rgba(33,33,33,.2); 
+    transform: scale(1.016);
+  }
+
+  .name {
+    text-align: center;
+    align-items: center;
+    font-size: 1.2em;
+    border: 1px solid black;
+    background: #F5F5F5;
+    padding: 0.4em;
+    border-radius: 0px 0px 10px 10px;
+    height: 4vh;
+  }
+  
+  .center {
+    height: 51vh;
+  }
+
+  .result_img {
+    height: 51vh;
+  }
+}
+
+
