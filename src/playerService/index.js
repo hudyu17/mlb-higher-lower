@@ -1,60 +1,44 @@
 const playerBank = [
-//   {
-// 		name: "Mike Trout",
-// 		avg: .304,
-// 		hrs: 302,
-// 		rbi: 798,
-// 		war: 74.5,
-// 		img: "https://fivethirtyeight.com/wp-content/uploads/2019/08/GettyImages-1161893364-1-e1565305146478.jpg?w=575"
-// 	},
-// 	{
-// 		name: "Miguel Cabrera",
-// 		avg: .313,
-// 		hrs: 487,
-// 		rbi: 1729,
-// 		war: 69.6,
-// 		img: "https://ftw.usatoday.com/wp-content/uploads/sites/90/2013/05/cabrera11.jpg?w=660&h=495&crop=1"
-// 	},
-// 	{
-// 		name: "Buster Posey",
-// 		avg: .302,
-// 		hrs: 141,
-// 		rbi: 674,
-// 		war: 41.4,
-// 		img: "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Ffansided.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2020%2F07%2F1217243703-850x560.jpeg"
-// 	},
-// 	{
-// 		name: "Bryce Harper",
-// 		avg: .276,
-// 		hrs: 232,
-// 		rbi: 668,
-// 		war: 34.3,
-// 		img: "https://cdn.vox-cdn.com/thumbor/c82DXrASQa-AQQIHYIv_rpJ22iM=/0x127:3989x2663/1200x800/filters:focal(1697x593:2335x1231)/cdn.vox-cdn.com/uploads/chorus_image/image/57051021/usa_today_10333276.0.jpg"
-// 	}, 
-// 	{
-// 		name: "Nolan Arenado",
-// 		avg: .293,
-// 		hrs: 235,
-// 		rbi: 761,
-// 		war: 40.2,
-// 		img: "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fcalltothepen.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2018%2F08%2F1177295886-850x560.jpeg"
-// 	}, 
-// 	{
-// 		name: "Brett Gardner",
-// 		avg: .259,
-// 		hrs: 129,
-// 		rbi: 539,
-// 		war: 43.2,
-// 		img: "https://static01.nyt.com/images/2019/12/12/sports/12yankees-1/merlin_162604077_4725c7b2-4bb8-4ec7-99ca-8a7260fe248d-superJumbo.jpg"
-// 	}, 
-// 	{
-// 		name: "Robinson Cano",
-// 		avg: .303,
-// 		hrs: 334,
-// 		rbi: 1302,
-// 		war: 69.5,
-// 		img: "https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/texas-rangers-v-seattle-mariners-5be9a1058a7200b002000001.jpg"
-// 	}
+  // {
+	// 	name: "Mike Trout",
+	// 	avg: .304,
+	// 	hrs: 302,
+	// 	rbi: 798,
+	// 	war: 74.5,
+	// 	img: "https://fivethirtyeight.com/wp-content/uploads/2019/08/GettyImages-1161893364-1-e1565305146478.jpg?w=575"
+	// },
+	// {
+	// 	name: "Miguel Cabrera",
+	// 	avg: .313,
+	// 	hrs: 487,
+	// 	rbi: 1729,
+	// 	war: 69.6,
+	// 	img: "https://ftw.usatoday.com/wp-content/uploads/sites/90/2013/05/cabrera11.jpg?w=660&h=495&crop=1"
+	// },
+	// {
+	// 	name: "Buster Posey",
+	// 	avg: .302,
+	// 	hrs: 141,
+	// 	rbi: 674,
+	// 	war: 41.4,
+	// 	img: "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Ffansided.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2020%2F07%2F1217243703-850x560.jpeg"
+	// },
+	// {
+	// 	name: "Bryce Harper",
+	// 	avg: .276,
+	// 	hrs: 235,
+	// 	rbi: 668,
+	// 	war: 34.3,
+	// 	img: "https://cdn.vox-cdn.com/thumbor/c82DXrASQa-AQQIHYIv_rpJ22iM=/0x127:3989x2663/1200x800/filters:focal(1697x593:2335x1231)/cdn.vox-cdn.com/uploads/chorus_image/image/57051021/usa_today_10333276.0.jpg"
+	// }, 
+	// {
+	// 	name: "Nolan Arenado",
+	// 	avg: .293,
+	// 	hrs: 235,
+	// 	rbi: 668,
+	// 	war: 40.2,
+	// 	img: "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fcalltothepen.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2018%2F08%2F1177295886-850x560.jpeg"
+	// }
 
 {
     name: "Adam Jones",

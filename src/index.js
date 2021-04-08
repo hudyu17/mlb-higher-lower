@@ -46,6 +46,8 @@ class HigherLower extends Component {
                 correct_index: 0,
                 incorrect_index: 1
             })
+        } else if (p1_stat === p2_stat){
+            var correct_ans = answer["name"];
         } else { // no equals lol
             var correct_ans = this.state.playerBank[1]["name"];
             this.setState({
